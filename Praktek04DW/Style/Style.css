@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    position: relative; 
+}
+
+header {
+    background-color: #ffb5ff; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky; 
+    top: 50px; 
+    z-index: 999;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover {
+    background-color: #ffb5ff; 
+}
+
+.content {
+    max-width: 1000px; 
+    margin: 80px auto 15px auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #eda4dc61; 
+    position: relative;
+}
+
+h1 {
+    color: white; 
+}
+
+h2 {
+    color: #ffb5ff; 
+}
+
+.img-container {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.album-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.album-info th, .album-info td {
+    border: 1px solid #000000;
+    padding: 10px; 
+    text-align: center;
+}
+
+article {
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.album-info th {
+    background-color: #ffb5ff; 
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    color: rgb(50, 48, 48); 
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ffb5ff;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: rgb(50, 48, 48); 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
