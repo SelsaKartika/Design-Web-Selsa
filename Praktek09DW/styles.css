@@ -1,0 +1,190 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f1f7; 
+    color: #4b1b4f; 
+}
+
+.navbar {
+    background-color: #4b1b4f; 
+    border-bottom: 2px solid #e5c7e8; 
+}
+
+.navbar-brand {
+    color: #e5c7e8; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #e5c7e8;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #d68dbf; 
+}
+
+.custom-hero {
+    background: url('FallWinterMINJUKIM.jpg') no-repeat center center/cover;
+    padding: 5rem 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.custom-hero h1 {
+    font-size: 3rem;
+    color: #e5c7e8; 
+    margin-bottom: 0.5rem;
+}
+
+.custom-hero p {
+    font-size: 1.25rem;
+    color: #fbeafc; 
+}
+
+.custom-hero .btn {
+    background-color: #d68dbf;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-hero .btn:hover {
+    background-color: #a64988; 
+}
+
+#products {
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+    border-top: 5px solid #d68dbf;
+    border-bottom: 5px solid #d68dbf;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#products h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4b1b4f;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 1px solid #e5c7e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4b1b4f;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #7d3c6f;
+}
+
+#about {
+    background-color: #fbeafc; 
+    padding: 3rem 1rem;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4b1b4f;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    color: #4b1b4f;
+    line-height: 1.8;
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 3rem 1rem;
+    border-top: 5px solid #4b1b4f;
+    border-bottom: 5px solid #4b1b4f;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4b1b4f;
+    margin-bottom: 2rem;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#bookingForm .form-label {
+    color: #4b1b4f;
+}
+
+#bookingForm .form-control {
+    border: 1px solid #d68dbf;
+    border-radius: 5px;
+}
+
+#bookingForm .btn {
+    background-color: #d68dbf;
+    color: #fff;
+    border: none;
+}
+
+#bookingForm .btn:hover {
+    background-color: #a64988;
+}
+
+footer {
+    background-color: #4b1b4f;
+    color: #e5c7e8;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Styling untuk CAPTCHA */
+#captcha {
+    border: 1px solid #d68dbf;
+    border-radius: 5px;
+}
+
+/* Styling untuk penghitungan karakter */
+#nameCount {
+    color: #7d3c6f;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .custom-hero {
+        padding: 6rem 2rem;
+    }
+    .container {
+        padding: 2rem;
+    }
+    #products {
+        padding: 4rem 2rem;
+    }
+}
